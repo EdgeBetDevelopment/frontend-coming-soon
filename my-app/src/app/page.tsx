@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <div
-        className="w-full min-h-[904px]"
+        className="w-full min-h-[904px] lg:flex lg:flex-col lg:items-center"
         style={{
           backgroundImage: "url('/bg.png')",
           backgroundSize: "cover",
@@ -18,7 +18,7 @@ export default function Home() {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <header className="py-9 px-15">
+        <header className="py-9 px-15 self-start">
           <svg
             width="189"
             height="32"
@@ -71,7 +71,7 @@ export default function Home() {
             </defs>
           </svg>
         </header>
-        <main className="mt-25 mx-5 sm:mx-10 md:mt-[114px] xl:mx-25 gap-10 flex flex-col lg:flex-row justify-between items-center lg:items-end pb-[113px]">
+        <main className="mt-25 min-[1435px]:w-full min-[1435px]:h-[calc(100vh-104px)] min-[1435px]:max-w-[1435px] mx-5 sm:mx-10 md:mt-[114px] xl:mx-25 gap-10 flex flex-col lg:flex-row justify-between items-center lg:items-end pb-[113px]">
           <div className="flex flex-col gap-3 max-w-[521px]">
             <svg
               width="246"
@@ -175,8 +175,8 @@ export default function Home() {
           </div>
         </main>
       </div>
-      <footer className="bg-black border-t border-[#484848] px-10 py-6 sm:px-25 sm:py-12 w-full">
-        <div className="w-full sm:h-[24px] flex flex-col  items-center gap-4 sm:gap-0 sm:flex-row sm:items-end justify-between">
+      <footer className="flex flex-col items-center bg-black border-t border-[#484848] px-10 py-6 sm:px-25 sm:py-12 w-full">
+        <div className="w-full max-w-[1435px] sm:h-[24px] flex flex-col  items-center gap-4 sm:gap-0 sm:flex-row sm:items-end justify-between">
           <p className="font-outfit h-[18px] text-[#EBEBEB] text-[14px]">
             © 2025 EdgeBet AL. All rights reserved.
           </p>

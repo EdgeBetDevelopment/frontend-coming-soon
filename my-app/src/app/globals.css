@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 body {
+  height: 100%;
   font-family: var(--font-outfit), Arial, Helvetica, sans-serif;
 }
 

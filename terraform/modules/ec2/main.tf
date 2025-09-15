@@ -52,7 +52,7 @@ module "ec2_instance" {
   name  = var.name
   count = 1
 
-  ami                         = local.ubuntu_ami
+  ami                         = "/aws/service/canonical/ubuntu/server/24.04/stable/current/amd64/hvm/ebs-gp3/ami-id"
   instance_type               = var.type
   key_name                    = module.key_pair.key_pair_name
   vpc_security_group_ids      = [resource.aws_security_group.this.id]

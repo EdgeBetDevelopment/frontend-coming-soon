@@ -128,14 +128,14 @@ module "ec2_instance" {
     echo 'server {
     listen 80 default_server;
     server_name localhost;
-    # return 301 https://$host$request_uri;
-    # }
+    return 301 https://$host$request_uri;
+    }
 
-    # server {
-    #   listen 443 ssl;
-    #   server_name ${var.domain};
-    #   ssl_certificate /etc/letsencrypt/live/${var.domain}/fullchain.pem;
-    #   ssl_certificate_key /etc/letsencrypt/live/${var.domain}/privkey.pem;
+    server {
+      listen 443 ssl;
+      server_name ${var.domain};
+      ssl_certificate /etc/letsencrypt/live/${var.domain}/fullchain.pem;
+      ssl_certificate_key /etc/letsencrypt/live/${var.domain}/privkey.pem;
 
       location / {
           proxy_pass http://127.0.0.1:3100/;

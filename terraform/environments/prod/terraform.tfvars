@@ -1,5 +1,5 @@
 # Application Configuration
-domain        = ""
+domain        = "edgebet.ai"
 
 # EC2 Configuration
 instance_type = "t3.small"

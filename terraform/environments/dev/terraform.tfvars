@@ -2,7 +2,7 @@
 # Note: This environment uses the default VPC to reduce costs and complexity
 
 # Application Configuration
-domain        = ""
+domain        = "edgebet.ai"
 
 # EC2 Configuration
 instance_type = "t3.small"

@@ -71,8 +71,8 @@ export default function Home() {
             </defs>
           </svg>
         </header>
-        <main className="mt-25 min-[1435px]:w-full min-[1435px]:h-[calc(100vh-104px)] min-[1435px]:max-w-[1435px] mx-5 sm:mx-10 md:mt-[114px] xl:mx-25 gap-10 flex flex-col lg:flex-row justify-between items-center lg:items-end pb-[113px]">
-          <div className="flex flex-col gap-3 max-w-[521px]">
+        <main className="mt-25 min-[1435px]:w-full min-[1635px]:h-[calc(100vh-324px)] min-[1435px]:max-w-[1435px] mx-5 sm:mx-10 md:mt-[114px] xl:mx-25 gap-10 flex flex-col lg:flex-row justify-between items-center lg:items-end pb-[113px]">
+          <div className="flex flex-col gap-3 max-w-[521px] min-[1635px]:self-center">
             <svg
               width="246"
               height="32"
@@ -161,7 +161,7 @@ export default function Home() {
               ))}
             </div>
           </div>
-          <div className="flex flex-col max-w-[521px] w-full gap-7">
+          <div className="flex flex-col max-w-[521px] w-full gap-7 min-[1635px]:self-center">
             <section className="flex flex-col gap-2.5">
               <h3 className="text-[#EBEBEB] font-manrope text-3xl sm:text-[40px] leading-[55px]">
                 Get early access

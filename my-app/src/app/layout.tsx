@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Outfit, Manrope } from "next/font/google";
+import { Toaster } from "@/components/ui/sonner";
 
 const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
 const manrope = Manrope({ subsets: ["latin"], variable: "--font-manrope" });
@@ -19,6 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${outfit.variable} ${manrope.variable} antialiased`}>
         {children}
+        <Toaster />
       </body>
     </html>
   );

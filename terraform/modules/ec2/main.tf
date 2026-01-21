@@ -137,6 +137,9 @@ module "ec2_instance" {
       ssl_certificate /etc/letsencrypt/live/${var.domain}/fullchain.pem;
       ssl_certificate_key /etc/letsencrypt/live/${var.domain}/privkey.pem;
 
+      types_hash_max_size 10240;
+      client_max_body_size 10M;
+      
       location / {
           proxy_pass http://127.0.0.1:3100/;
           proxy_set_header Host $host;

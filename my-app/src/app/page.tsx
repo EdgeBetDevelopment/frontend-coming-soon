@@ -91,7 +91,6 @@ const ComingSoon = () => {
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-1/4 right-1/4 w-[600px] h-[600px] rounded-full bg-primary/5 blur-3xl" />
         <div className="absolute bottom-1/4 left-1/4 w-[400px] h-[400px] rounded-full bg-primary/3 blur-3xl" />
-        <div className="absolute top-1/2 right-0 w-[300px] h-[600px] bg-gradient-to-l from-primary/10 to-transparent" />
 
         {/* Grid overlay */}
         <div

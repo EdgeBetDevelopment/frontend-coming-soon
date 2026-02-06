@@ -178,7 +178,7 @@ export default function Home() {
       <footer className="flex flex-col items-center bg-black border-t border-[#484848] px-10 py-6 sm:px-25 sm:py-12 w-full">
         <div className="w-full max-w-[1435px] sm:h-[24px] flex flex-col  items-center gap-4 sm:gap-0 sm:flex-row sm:items-end justify-between">
           <p className="font-outfit h-[18px] text-[#EBEBEB] text-[14px]">
-            © 2025 EdgeBet AL. All rights reserved.
+            © 2026 EdgeBet AL. All rights reserved.
           </p>
           <p className="font-manrope font-medium text-base text-[#B3B3B3]">
             Next Private Beta

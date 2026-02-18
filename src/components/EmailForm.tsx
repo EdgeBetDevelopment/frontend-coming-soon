@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const API_BASE = "https://ndxrby9m5a.execute-api.us-east-1.amazonaws.com/Prod";
+const API_BASE = "https://kfw20jcy36.execute-api.us-east-1.amazonaws.com/Prod";
 
 export const EmailForm = () => {
   const [email, setEmail] = useState("");
